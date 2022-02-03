@@ -3,6 +3,7 @@
 * [Methods](#methods)
 * [Application](#application)
 * [Contents](#contents)
+* [Datasets](#datasets)
 * [Clone](#clone)
 
 ## General info
@@ -36,6 +37,10 @@ The _Brusselator_ diffusion-reaction dynamical system is studied, which describe
 * _scripts_ - contains scripts used for implementing the surrogate modeling tasks
 
 * _mPCE_ - contains notebook for constructing the mPCE model
+
+## Datasets
+
+Datasets can be provided upon request. 
 
 ## Clone
 
