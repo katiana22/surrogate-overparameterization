@@ -59,5 +59,5 @@ ______________________
 
 ### Contact
 For more information or questions please contact us at:   
-kontolati@jhu.edu   
-somdatta_goswami@brown.edu
+* kontolati@jhu.edu   
+* somdatta_goswami@brown.edu
