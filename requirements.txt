@@ -1,0 +1,5 @@
+numpy
+scipy==1.4.1
+itertools
+matplotlib
+sklearn
