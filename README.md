@@ -13,16 +13,30 @@ This Git repository contains codes for new developments and comparison of manifo
 
 * _Manifold PCE_ or _mPCE_ approximates mappings via the identification of low-dimensional embeddings of input and output functions and the construction of a polynomial-based surrogate.
 
+<p align="center">
+  <img src="mPCE-schematic.png" width="700" />
+</p>
+
 * _DeepONet_ is a deep neural operator model which allows the construction of mapping between infinite dimensional functions via the use of deep neural networks (DNNs).
+
+<p align="center">
+  <img src="DeepONet-schematic.png" width="700" />
+</p>
 
 ## Application
 
 The _Brusselator_ diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. We explore the capabilities of the studied models and test them for various regression tasks including their extrapolation/generalization ability (perfor-
 mance to out-of-distribution data), robustness to noise, ability to handle complex stochastic inputs and highly nonlinear mappings.
 
+<p align="center">
+  <img src="Application-schematic.png" width="700" />
+</p>
+
 ## Contents
 
+* _scripts_ - contains scripts used for implementing the surrogate modeling tasks
 
+* _mPCE_ - contains notebook for constructing the mPCE model
 
 ## Clone
 
@@ -39,7 +53,7 @@ pip install -r requirements.txt
 If you find this GitHub repository useful for your work, please consider citing this work:
 
 ```
-...
+ArXiv reference
 ```
 ______________________
 
