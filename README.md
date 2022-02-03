@@ -7,7 +7,7 @@
 
 ## General info
 
-This Git repository contains codes for new developments and comparison of manifold-PCE and DeepONet.
+This Git repository contains codes for the new developments and comparisons of manifold-PCE with DeepONet for the construction of surrogate models in nonlinear PDE problems.
 
 ## Methods
 
@@ -25,8 +25,7 @@ This Git repository contains codes for new developments and comparison of manifo
 
 ## Application
 
-The _Brusselator_ diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. We explore the capabilities of the studied models and test them for various regression tasks including their extrapolation/generalization ability (perfor-
-mance to out-of-distribution data), robustness to noise, ability to handle complex stochastic inputs and highly nonlinear mappings.
+The _Brusselator_ diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. We explore the capabilities of the studied models and test them for various regression tasks including their extrapolation/generalization ability (performance to out-of-distribution data), robustness to noise, ability to handle complex stochastic inputs and highly nonlinear mappings.
 
 <p align="center">
   <img src="Application-schematic.png" width="700" />
