@@ -40,7 +40,7 @@ The _Brusselator_ diffusion-reaction dynamical system is studied, which describe
 
 ## Datasets
 
-Datasets can be provided upon request. 
+Datasets can be provided upon request. Alternatively, the [py-pde](https://github.com/zwicker-group/py-pde) package can be used for the generation of data.
 
 ## Clone
 
