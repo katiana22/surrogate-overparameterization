@@ -34,7 +34,7 @@ The _Brusselator_ diffusion-reaction dynamical system is studied, which describe
 
 ## Contents
 
-* _utils_ - contains scripts used for implementing the surrogate modeling tasks
+* _utils_ - contains python scripts necessary for implementing the surrogate modeling tasks (loading data, plotting etc.)
 
 * _main_{}.py/main_{}.ipynb - contains python scripts and notebooks for implementing the proposed approaches
 
