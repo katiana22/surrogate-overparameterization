@@ -44,7 +44,7 @@ Datasets can be provided upon request. Alternatively, the [py-pde](https://githu
 
 ## Clone
 
-To clone and use this repository, run the following terminal commands.
+To clone and use this repository, run the following terminal commands:
 
 ```
 git clone https://github.com/katiana22/mPCE-vs-DeepONet.git
