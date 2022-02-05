@@ -8,17 +8,17 @@
 
 ## General info
 
-This Git repository contains codes for the new developments and comparisons of manifold-PCE with DeepONet for the construction of surrogate models in nonlinear PDE problems.
+This Git repository contains codes for the **'New developments and comparisons of manifold-based surrogates with deep neural operators'** paper which can be found here: [ref].  
 
 ## Methods
 
-* _Manifold PCE_ or _mPCE_ approximates mappings via the identification of low-dimensional embeddings of input and output functions and the construction of a polynomial-based surrogate.
+* **Manifold PCE** or **mPCE** approximates mappings via the identification of low-dimensional embeddings of input and output functions and the construction of a polynomial-based surrogate.
 
 <p align="center">
   <img src="schematics/mPCE-schematic.png" width="700" />
 </p>
 
-* _DeepONet_ is a deep neural operator model which allows the construction of mapping between infinite dimensional functions via the use of deep neural networks (DNNs).
+* **DeepONet** is a deep neural operator model which allows the construction of mapping between infinite dimensional functions via the use of deep neural networks (DNNs).
 
 <p align="center">
   <img src="schematics/DeepONet-schematic.png" width="700" />
@@ -26,7 +26,7 @@ This Git repository contains codes for the new developments and comparisons of m
 
 ## Application
 
-The _Brusselator_ diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. We explore the capabilities of the studied models and test them for various regression tasks including their extrapolation/generalization ability (performance to out-of-distribution data), robustness to noise, ability to handle complex stochastic inputs and highly nonlinear mappings.
+The **Brusselator** diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. We explore the capabilities of the studied models and test them for various regression tasks including their extrapolation/generalization ability (performance to out-of-distribution data), robustness to noise, ability to handle complex stochastic inputs and highly nonlinear mappings.
 
 <p align="center">
   <img src="schematics/Application-schematic.png" width="700" />
