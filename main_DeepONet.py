@@ -138,19 +138,19 @@ def main():
     # Save results for test data
     data_save = SaveData()
     num_test = 200
-    data_save.save2(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_test)
+    data_save.save(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_test)
     
     # Save results for OOD data
     data_save_ood = SaveDataOOD()
     num_ood = 100
-    data_save_ood.save2(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_ood)
+    data_save_ood.save(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_ood)
 
     # Save results for noisy data
     num_noisy = 200
     noise = [0.01, 0.05, 0.10, 0.15, 0.20, 0.30]
     for i in range(len(noise)):
         data_save = SaveDataNoisy(noise=noise[i])
-        data_save.save2(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_noisy)
+        data_save.save(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_noisy)
 
     np.savetxt('./Output/train_loss', train_loss)
     np.savetxt('./Output/test_loss', test_loss)
