@@ -26,7 +26,9 @@ This Git repository contains codes for the **'New developments and comparisons o
 
 ## Application
 
-The **Brusselator** diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. The objective is to approximate the mapping between high-dimensional stochastic initial fields with the evolution of the system across time and space (first row below). The model response is learned for two dynamical states, when the system reaches a fixed point in the phase space (second row) and when it reaches a limit cycle (third row). We explore the capabilities of the studied models and test them for various regression tasks including their extrapolation/generalization ability (performance to out-of-distribution data), robustness to noise, ability to handle complex stochastic inputs and highly nonlinear mappings.
+* The **Brusselator** diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. 
+* The objective is to approximate the mapping between high-dimensional stochastic initial fields with the evolution of the system across time and space (first row below). The model response is learned for two dynamical states, when the system reaches a **fixed point** in the phase space (second row) and when it reaches a **limit cycle** (third row). 
+* We explore the capabilities of the studied models and test them for various regression tasks including their **extrapolation/generalization** ability (performance to out-of-distribution data), **robustness to noise**, ability to handle complex stochastic inputs and **highly nonlinear** mappings.
 
 <p align="center">
   <img src="schematics/Application-schematic.png" width="700" />
