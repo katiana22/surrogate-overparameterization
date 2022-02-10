@@ -36,9 +36,9 @@ This Git repository contains codes for the **'New developments and comparisons o
 
 ## Contents
 
-* _utils_ - contains python scripts necessary for implementing the surrogate modeling tasks (loading data, plotting etc.)
+* ```utils``` - contains python scripts necessary for implementing the surrogate modeling tasks (loading data, plotting etc.)
 
-* _main_{}.py/main_{}.ipynb - contains python scripts and notebooks for implementing the proposed approaches
+* ```main_{}.py```/ ```main_{}.ipynb``` - contains python scripts and notebooks for implementing the proposed approaches
 
 ## Datasets
 
