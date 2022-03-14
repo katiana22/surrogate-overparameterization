@@ -10,6 +10,8 @@
 
 This Git repository contains codes for the **'On the influence of over-parameterization in manifold based surrogates and deep neural operators'** paper which can be found here: [https://arxiv.org/abs/2203.05071](https://arxiv.org/abs/2203.05071).
 
+Authors: [Katiana Kontolati](https://scholar.google.com/citations?user=n8wtUDYAAAAJ&hl=en&oi=sra), [Somdatta Goswami](https://scholar.google.com/citations?user=GaKrpSkAAAAJ&hl=en&oi=sra), [Michael D. Shields](https://scholar.google.com/citations?user=hc85Ll0AAAAJ&hl=en), [George Em Karniadakis](https://scholar.google.com/citations?user=yZ0-ywkAAAAJ&hl=en)
+
 ## Methods
 
 * **Manifold PCE** or **mPCE** approximates mappings via the identification of low-dimensional embeddings of input and output functions and the construction of a polynomial-based surrogate.
