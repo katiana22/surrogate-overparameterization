@@ -8,7 +8,7 @@
 
 ## General info
 
-This Git repository contains codes for the **'New developments and comparisons of manifold-based surrogates with deep neural operators'** paper which can be found here: [ref].  
+This Git repository contains codes for the **'On the influence of over-parameterization in manifold based surrogates and deep neural operators'** paper which can be found here: [https://arxiv.org/abs/2203.05071](https://arxiv.org/abs/2203.05071).
 
 ## Methods
 
@@ -49,8 +49,8 @@ Datasets can be provided upon request. Alternatively, the [py-pde](https://githu
 To clone and use this repository, run the following terminal commands:
 
 ```
-git clone https://github.com/katiana22/mPCE-vs-DeepONet.git
-cd mPCE-vs-DeepONet
+git clone https://github.com/katiana22/surrogate-overparameterization.git
+cd surrogate-overparameterization
 pip install -r requirements.txt
 ```
 
@@ -59,7 +59,12 @@ pip install -r requirements.txt
 If you find this GitHub repository useful for your work, please consider citing this work:
 
 ```
-ArXiv reference
+@article{kontolati2022influence,
+  title={On the influence of over-parameterization in manifold based surrogates and deep neural operators},
+  author={Kontolati, Katiana and Goswami, Somdatta and Shields, Michael D and Karniadakis, George Em},
+  journal={arXiv preprint arXiv:2203.05071},
+  year={2022}
+}
 ```
 ______________________
 
