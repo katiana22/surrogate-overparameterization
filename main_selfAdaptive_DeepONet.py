@@ -1,5 +1,5 @@
 '''
-Manuscript Associated: New developments and comparisons of manifold-based surrogates with deep neural operators
+Manuscript Associated: On the influence of over-parameterization in manifold based surrogates and deep neural operators
 Authors: Katiana Kontolati, PhD Candidate, Johns Hopkins University
          Somdatta Goswami, Postdoctoral Researcher, Brown University
 Tensorflow Version Required: TF1.15     
@@ -7,8 +7,6 @@ This should be used for the sharp data
 
 Before running the code: Provide the path for the training and testing dataset in utils/dataset.py Line: 12
                          Provide the path for the out-of-distribution dataset in utils/dataset.py Line: 13
-
-Last update: February 5, 2022
 '''
 
 import tensorflow.compat.v1 as tf
@@ -109,7 +107,7 @@ def main():
     sess.run(tf.global_variables_initializer())
     
     n = 0
-    nmax = 5000  # epochs
+    nmax = 30000  # epochs
     start_time = time.perf_counter()
     time_step_0 = time.perf_counter()
     

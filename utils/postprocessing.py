@@ -1,3 +1,11 @@
+'''
+Manuscript Associated: On the influence of over-parameterization in manifold based surrogates and deep neural operators
+Authors: Katiana Kontolati, PhD Candidate, Johns Hopkins University
+         Somdatta Goswami, Postdoctoral Researcher, Brown University
+Tensorflow Version Required: TF1.15     
+This can be used for both the smooth and the sharp data 
+'''
+
 import numpy as np
 from matplotlib import pylab as plt
 

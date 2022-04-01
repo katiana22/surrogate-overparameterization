@@ -1,14 +1,12 @@
 '''
-Manuscript Associated: New developments and comparisons of manifold-based surrogates with deep neural operators
+Manuscript Associated: On the influence of over-parameterization in manifold based surrogates and deep neural operators
 Authors: Katiana Kontolati, PhD Candidate, Johns Hopkins University
          Somdatta Goswami, Postdoctoral Researcher, Brown University
 Tensorflow Version Required: TF1.15     
 This can be used for both the smooth and the sharp data 
 
 Before running the code: Provide the path for the training and testing dataset in utils/dataset.py Line: 12
-                         Provide the path for the out-of-distribution dataset in utils/dataset.py Line: 13 
-                         
-Last update: February 5, 2022
+                         Provide the path for the out-of-distribution dataset in utils/dataset.py Line: 13   
 '''
 
 import tensorflow.compat.v1 as tf
@@ -138,19 +136,19 @@ def main():
     # Save results for test data
     data_save = SaveData()
     num_test = 200
-    data_save.save(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_test)
+    data_save.save2(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_test)
     
     # Save results for OOD data
     data_save_ood = SaveDataOOD()
     num_ood = 100
-    data_save_ood.save(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_ood)
+    data_save_ood.save2(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_ood)
 
     # Save results for noisy data
     num_noisy = 200
     noise = [0.01, 0.05, 0.10, 0.15, 0.20, 0.30]
     for i in range(len(noise)):
         data_save = SaveDataNoisy(noise=noise[i])
-        data_save.save(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_noisy)
+        data_save.save2(sess, x_pos, fnn_model, W, b, Xmin, Xmax, u_B, f_ph, u_ph, data, num_noisy)
 
     np.savetxt('./Output/train_loss', train_loss)
     np.savetxt('./Output/test_loss', test_loss)

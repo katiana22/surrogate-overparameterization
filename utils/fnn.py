@@ -1,5 +1,5 @@
 '''
-Manuscript Associated: New developments and comparisons of manifold-based surrogates with deep neural operators
+Manuscript Associated: On the influence of over-parameterization in manifold based surrogates and deep neural operators
 Authors: Katiana Kontolati, PhD Candidate, Johns Hopkins University
          Somdatta Goswami, Postdoctoral Researcher, Brown University
 Tensorflow Version Required: TF1.15         
