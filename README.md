@@ -38,13 +38,15 @@ Authors: [Katiana Kontolati](https://scholar.google.com/citations?user=n8wtUDYAA
 
 ## Contents
 
+* ```data``` - contains files with the input random field data used to generate the train and test data of the model
+
 * ```utils``` - contains python scripts necessary for implementing the surrogate modeling tasks (loading data, plotting etc.)
 
 * ```main_{}.py```/ ```main_{}.ipynb``` - contains python scripts and notebooks for implementing the proposed approaches
 
 ## Datasets
 
-Datasets can be provided upon request. Alternatively, the [py-pde](https://github.com/zwicker-group/py-pde) package can be used for the generation of data.
+To generate the train/test data for the Brusselator model simply run the ```generate_data.py``` script. This will save the generated dataset inside folder ```data/```. The [py-pde](https://github.com/zwicker-group/py-pde) package is used for solving the model.
 
 ## Clone
 
