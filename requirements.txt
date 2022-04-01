@@ -1,5 +1,6 @@
 UQpy==3.1.4
 tensorflow==1.15
+py-pde==0.13.3
 numpy
 scipy==1.4.1
 itertools
