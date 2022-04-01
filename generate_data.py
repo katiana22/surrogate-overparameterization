@@ -17,7 +17,7 @@ file = np.load('./data/inputs_KLE_lx_0.11_ly_0.15_v_0.15.npz') # Case I
 
 samples = file['inputs']
 
-n_samples = 2 # both train and test
+n_samples = 1000 # both train and test
 print('Number of total samples:', n_samples)
 
 nx, ny = 28, 28
