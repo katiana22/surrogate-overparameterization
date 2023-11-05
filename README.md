@@ -8,7 +8,7 @@
 
 ## General info
 
-This Git repository contains codes for the **'On the influence of over-parameterization in manifold based surrogates and deep neural operators'** paper which can be found here: [https://arxiv.org/abs/2203.05071](https://arxiv.org/abs/2203.05071).
+This Git repository contains codes for the **'On the influence of over-parameterization in manifold based surrogates and deep neural operators'** paper which can be found here: [https://www.sciencedirect.com/science/article/abs/pii/S0021999123001031](https://www.sciencedirect.com/science/article/abs/pii/S0021999123001031) (JPC) or [https://arxiv.org/abs/2203.05071](https://arxiv.org/abs/2203.05071) (arXiv)
 
 Authors: [Katiana Kontolati](https://scholar.google.com/citations?user=n8wtUDYAAAAJ&hl=en&oi=sra), [Somdatta Goswami](https://scholar.google.com/citations?user=GaKrpSkAAAAJ&hl=en&oi=sra), [Michael D. Shields](https://scholar.google.com/citations?user=hc85Ll0AAAAJ&hl=en), [George Em Karniadakis](https://scholar.google.com/citations?user=yZ0-ywkAAAAJ&hl=en)
 
@@ -63,11 +63,14 @@ pip install -r requirements.txt
 If you find this GitHub repository useful for your work, please consider citing this work:
 
 ```
-@article{kontolati2022influence,
+@article{kontolati2023influence,
   title={On the influence of over-parameterization in manifold based surrogates and deep neural operators},
   author={Kontolati, Katiana and Goswami, Somdatta and Shields, Michael D and Karniadakis, George Em},
-  journal={arXiv preprint arXiv:2203.05071},
-  year={2022}
+  journal={Journal of Computational Physics},
+  volume={479},
+  pages={112008},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 ______________________
