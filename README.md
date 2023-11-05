@@ -52,9 +52,9 @@ To generate the train/test data for the Brusselator model simply run the ```gene
 
 To clone and use this repository, run the following terminal commands:
 
-**1.** Create an Anaconda Python 3.7 virtual environment:
+**1.** Create an Anaconda Python 3.8 virtual environment:
 ```
-conda create -n surrogate-overparam python==3.7
+conda create -n surrogate-overparam python==3.8
 conda activate surrogate-overparam
 ```
 
