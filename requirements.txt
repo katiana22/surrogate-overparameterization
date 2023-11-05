@@ -3,7 +3,6 @@ tensorflow==1.15
 py-pde==0.13.3
 numpy
 scipy
-itertools
 matplotlib
-sklearn
+scikit-learn
 tqdm
