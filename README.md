@@ -4,7 +4,7 @@
 * [Application](#application)
 * [Contents](#contents)
 * [Datasets](#datasets)
-* [Clone](#clone)
+* [Get Started](#get-started)
 
 ## General info
 
@@ -48,12 +48,26 @@ Authors: [Katiana Kontolati](https://scholar.google.com/citations?user=n8wtUDYAA
 
 To generate the train/test data for the Brusselator model simply run the ```generate_data.py``` script. This will save the generated dataset inside folder ```data/```. The [py-pde](https://github.com/zwicker-group/py-pde) package is used for solving the model.
 
-## Clone
+## Get Started
+
+To clone and use this repository, run the following terminal commands:
+
+**1.** Create an Anaconda Python 3.7 virtual environment:
+```
+conda create -n surrogate-overparam python==3.7
+conda activate surrogate-overparam
+```
+
+**2.** Clone the repo:
 
 To clone and use this repository, run the following terminal commands:
 
 ```
 git clone https://github.com/katiana22/surrogate-overparameterization.git
+```
+**3.** Install dependencies:
+
+```
 cd surrogate-overparameterization
 pip install -r requirements.txt
 ```
